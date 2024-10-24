@@ -1,0 +1,57 @@
+::-webkit-scrollbar-track {
+  background-color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #2f2f2f;
+  font-family: "Droid Serif", serif;
+}
+body {
+  background: #e1c9a1;
+  text-align: center;
+  height: 100vh;
+}
+p {
+  padding: 1pc 0;
+}
+h1 {
+  font-size: clamp(10px, 15vw, 60px);
+  padding: 1pc 0 1pc 0;
+}
+h4 {
+  font-size: 1.2em;
+}
+.head__subtitle {
+  border-top: 2px solid #2f2f2f;
+  border-bottom: 2px solid #2f2f2f;
+  font-size: 1.3em;
+  padding: 0.3pc 0 0.3pc 0;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5pc;
+}
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 250px;
+
+  min-height: calc(100vh - (143.59px + 0.5pc));
+
+  border-left: 1px solid #2f2f2f;
+  border-right: 1px solid #2f2f2f;
+  padding: 0 1pc 0 1pc;
+
+  gap: 1.3pc;
+}
+
+.img {
+  width: 40vmin;
+  border-radius: 10px;
+}
